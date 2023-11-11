@@ -41,7 +41,7 @@ class IdeHelperMacros extends Command
      *
      * @var string
      */
-    protected $signature = 'ide-helper:macros';
+    protected $signature = 'ide-helper:response';
 
     /**
      * The console command description.
