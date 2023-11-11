@@ -1,19 +1,19 @@
 {
-    "name": "ihor-radchenko/laravel-ide-helper-macros",
+    "name": "cookie-creator/laravel-ide-helper-macros",
     "description": "Generate phpDoc for laravel macroable class.",
     "homepage": "https://github.com/ihor-radchenko/laravel-ide-helper-macros",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ihor Radchenko",
-            "email": "radchenko1995@gmail.com"
+            "name": "Cookie",
+            "email": "cookie@gmail.com"
         }
     ],
     "keywords": ["laravel", "ide", "helper", "macros", "mixins", "phpdoc", "autocomplete", "phpstorm", "netbeans"],
     "require": {
-        "php": "^7.1.3",
+        "php": "^8.0",
         "barryvdh/reflection-docblock": "^2.0.6",
-        "laravel/framework": "5.*"
+        "laravel/framework": "9.*"
     },
     "autoload": {
         "psr-4": {
