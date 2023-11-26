@@ -1,31 +1,41 @@
 {
-    "name": "cookie-creator/laravel-ide-helper-macros",
-    "description": "Generate phpDoc for laravel macroable class.",
-    "homepage": "https://github.com/ihor-radchenko/laravel-ide-helper-macros",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Cookie",
-            "email": "cookie@gmail.com"
-        }
-    ],
-    "keywords": ["laravel", "ide", "helper", "macros", "mixins", "phpdoc", "autocomplete", "phpstorm", "netbeans"],
-    "require": {
-        "php": "^8.0",
-        "barryvdh/reflection-docblock": "^2.0.6",
-        "laravel/framework": "9.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "IhorRadchenko\\LaravelIdeHelperMacros\\": "src"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "IhorRadchenko\\LaravelIdeHelperMacros\\IdeHelperMacrosServiceProvider"
-            ]
-        }
-    },
-    "version": "1.0.6"
+	"name": "cookie-creator/laravel-ide-helper-macros",
+	"description": "Generate phpDoc for laravel macroable class.",
+	"homepage": "https://github.com/cookie-creator/laravel-ide-helper-macros",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Cookie",
+			"email": "cookie@gmail.com"
+		}
+	],
+	"keywords": [
+		"laravel",
+		"ide",
+		"helper",
+		"macros",
+		"mixins",
+		"phpdoc",
+		"autocomplete",
+		"phpstorm",
+		"netbeans"
+	],
+	"require": {
+		"php": "^8.0",
+		"barryvdh/reflection-docblock": "^2.0.6",
+		"laravel/framework": "^9.0|^10.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"IhorRadchenko\\LaravelIdeHelperMacros\\": "src"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"IhorRadchenko\\LaravelIdeHelperMacros\\IdeHelperMacrosServiceProvider"
+			]
+		}
+	},
+	"version": "1.0.6"
 }
